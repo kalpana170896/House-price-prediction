@@ -1,101 +1,172 @@
-# House-price-prediction
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>House Price Prediction README</title>
+# 🏠 HOUSE PRICE PREDICTION PROJECT
 
-</head>
+# 📌 Project Overview
 
-<body>
+This project predicts the **price of houses** using  
+**Multiple Linear Regression (MLR)** Machine Learning Algorithm.
 
-    <div class="container">
+The user enters house details such as:
 
-        <h1>House Price Prediction</h1>
+- Bedrooms
+- Bathrooms
+- Square Living Area
+- Square Lot Area
+- Floors
+- Waterfront
+- View
+- Condition
+- Year Built
+- Year Renovated
+- City
 
-        <h2>Project Overview</h2>
-        <p>
-            This project is a Machine Learning based House Price Prediction system.
-            The application predicts house prices based on house features.
-        </p>
+Then the system predicts the **house price instantly**.
 
-        <h2>Features</h2>
-        <ul>
-            <li>Predict house prices instantly</li>
-            <li>User friendly interface</li>
-            <li>Machine Learning model integration</li>
-            <li>Fast and accurate prediction</li>
-        </ul>
+---
 
-        <h2>Technologies Used</h2>
-        <ul>
-            <li>Python</li>
-            <li>Flask</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Machine Learning</li>
-            <li>Pandas</li>
-            <li>NumPy</li>
-            <li>Scikit-learn</li>
-        </ul>
+# ✨ Project Features
 
-        <h2>Dataset Columns</h2>
-        <ul>
-            <li>Bedrooms</li>
-            <li>Bathrooms</li>
-            <li>Square Living Area</li>
-            <li>Square Lot Area</li>
-            <li>Floors</li>
-            <li>Waterfront</li>
-            <li>View</li>
-            <li>Condition</li>
-            <li>Year Built</li>
-            <li>Year Renovated</li>
-            <li>City</li>
-        </ul>
+✅ House Price Prediction  
+✅ Machine Learning Integration  
+✅ Responsive User Interface  
+✅ Flask Web Application  
+✅ Real-Time Prediction  
+✅ Dynamic Input System  
+✅ Clean Frontend Design  
 
-        <h2>Project Structure</h2>
+---
 
-        <div class="code">
-<pre>
+# 🛠 Technologies Used
+
+| Technology | Purpose |
+|------------|----------|
+| Python | Backend |
+| Flask | Web Framework |
+| Pandas | Data Processing |
+| NumPy | Numerical Operations |
+| Scikit-learn | Machine Learning |
+| HTML | Frontend |
+| CSS | Styling |
+| Bootstrap | Responsive Design |
+
+---
+
+# 🧠 Machine Learning Algorithm
+
+## Multiple Linear Regression (MLR)
+
+The project uses:
+
+```python
+LinearRegression()
+```
+
+to train and predict house prices.
+
+---
+
+# 📂 Dataset Columns
+
+| Column Name | Description |
+|-------------|-------------|
+| Bedrooms | Number of Bedrooms |
+| Bathrooms | Number of Bathrooms |
+| Square Living Area | House Living Area |
+| Square Lot Area | Total Lot Area |
+| Floors | Number of Floors |
+| Waterfront | Waterfront Availability |
+| View | House View Rating |
+| Condition | House Condition |
+| Year Built | Construction Year |
+| Year Renovated | Renovation Year |
+| City | House Location City |
+| Price | Target Variable |
+
+---
+
+# 🏗 Project Structure
+
+```bash
 House-Price-Prediction/
 │
 ├── app.py
 ├── model.pkl
+├── house_price_prediction.csv
+│
 ├── templates/
 │   └── index.html
+│
 ├── static/
-│   └── style.css
-├── requirements.txt
+│
 └── README.md
-</pre>
-        </div>
+```
 
-        <h2>Installation</h2>
+---
 
-        <div class="code">
-<pre>
-pip install -r requirements.txt
+# ⚙️ How To Run Project
+
+## 🔹 Step 1 Clone Repository
+
+```bash
+git clone your-github-link
+```
+
+---
+
+## 🔹 Step 2 Install Libraries
+
+```bash
+pip install pandas
+pip install numpy
+pip install scikit-learn
+pip install flask
+```
+
+---
+
+## 🔹 Step 3 Run Application
+
+```bash
 python app.py
-</pre>
-        </div>
+```
 
-        <h2>Usage</h2>
-        <p>
-            Enter the house details in the form and click the Predict button.
-            The predicted house price will be displayed on the screen.
-        </p>
+---
 
-        <h2>Machine Learning Algorithm</h2>
-        <p>
-           multipel Linear Regression algorithm is used for predicting house prices.
-        </p>
+## 🔹 Step 4 Open Browser
 
-        <h2>Author</h2>
-        <p>Kalpana</p>
+```bash
+http://127.0.0.1:5000
+```
 
-    </div>
+# 🎯 Prediction Example
 
-</body>
-</html>
+| Input | Value |
+|------|------|
+| Bedrooms | 3 |
+| Bathrooms | 2 |
+| Square Living Area | 1800 |
+| Square Lot Area | 5000 |
+| Floors | 2 |
+| Waterfront | No |
+| View | Good |
+| Condition | Excellent |
+| Year Built | 2015 |
+| Year Renovated | 2020 |
+| City | Seattle |
+
+## ✅ Predicted House Price
+
+```bash
+₹ 85,00,000
+```
+
+
+# 👩‍💻 Author
+
+# Kalpana
+
+### 🎓 Institute : VIHARATECH
+
+
+# 🏡 THANK YOU 🏡
+
+</div>
